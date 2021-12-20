@@ -1,0 +1,14 @@
+{
+  "name": "v-tooltip-nuxt",
+  "version": "0.1.0",
+  "description": "Nuxt module based of v-tooltip",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": ["nuxtjs","v-tooltip","module"],
+  "repository": "https://github.com/nuxt-community/community-modules",
+  "author": "Ayush P Gupta <ayushpguptaapg@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "v-tooltip": "^2.1.3"
+  }
+}
