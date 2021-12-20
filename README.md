@@ -4,6 +4,14 @@ Nuxt module of [v-tooltip](https://www.npmjs.com/package/v-tooltip)
 
 ## Installation
 
+Install npm dependency as follows
+
+```shell
+$ npm i apgapg/v-tooltip-nuxt
+```
+
+Note: You might need to ref the latest commit in package-lock.json for future updates
+
 ### Nuxt.js
 
 Add `v-tooltip/nuxt` to modules section of `nuxt.config.js`
