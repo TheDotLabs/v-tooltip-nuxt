@@ -16,6 +16,6 @@ const myModule: Module<GlobalVTooltipOptions> = function nuxtVTooltip(moduleOpti
 
 export default myModule
 
-export const meta = require('./package.json')
+export const meta = require('./../package.json')
 
 

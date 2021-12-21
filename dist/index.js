@@ -16,4 +16,4 @@ var myModule = function nuxtVTooltip(moduleOptions) {
     });
 };
 exports.default = myModule;
-exports.meta = require('./package.json');
+exports.meta = require('./../package.json');
