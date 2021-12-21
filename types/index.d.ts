@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {GlobalVTooltip, VTooltip} from 'v-tooltip'
+import {GlobalVTooltip, GlobalVTooltipOptions, VTooltip} from 'v-tooltip'
 
 declare module '@nuxt/vue-app' {
     interface Context {
@@ -20,6 +20,11 @@ declare module '@nuxt/types' {
     interface NuxtAppOptions {
         $VTooltip: GlobalVTooltip
     }
+
+    interface Configuration {
+        VTooltip?: GlobalVTooltipOptions
+    }
+
 }
 
 declare module 'vue/types/vue' {
